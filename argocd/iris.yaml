@@ -11,4 +11,4 @@ spec:
       modelUri: gs://seldon-models/sklearn/iris
       name: classifier
     name: default
-    replicas: 1
+    replicas: 2
