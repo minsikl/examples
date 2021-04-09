@@ -1,10 +1,10 @@
 apiVersion: machinelearning.seldon.io/v1
 kind: SeldonDeployment
 metadata:
-  name: iris-model4
+  name: iris-model5
   namespace: argocd
 spec:
-  name: iris4
+  name: iris5
   predictors:
   - graph:
       implementation: SKLEARN_SERVER
