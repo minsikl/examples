@@ -2,7 +2,7 @@ apiVersion: machinelearning.seldon.io/v1
 kind: SeldonDeployment
 metadata:
   name: iris-model4
-  namespace: default
+  namespace: argocd
 spec:
   name: iris4
   predictors:
